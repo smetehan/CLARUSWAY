@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: url(./img/background_image.jpg);
+        }
+       
+        .sevket{
+            width:400px;
+    height:auto;
+    background-color:#000000;
+    opacity:0.9;
+    /* filter:alpha(opacity=60); */
+    color: white;
+    margin-left: 500px;
+        }
+        #bir{
+color: white;
+font-family: 'Lobster', cursive;
+font-family: 'PT Serif', serif;
+font-family: 'The Nautigal', cursive;
+font-size: 50px;
+text-align: center;
+        }
+        #iki{
+color: red;
+font-family: 'Lobster', cursive;
+font-family: 'PT Serif', serif;
+font-family: 'The Nautigal', cursive;
+font-size: 50px;
+text-align: center;
+        }
+        #uc{
+            color: white;
+            font-size: 18px;
+        }
+        #name{
+            background-color: white;
+            width: 200px;
+            height: 38px;
+        }
+        #listbox{
+            width: 180px;
+        }
+        #dd{
+            width: 200px;
+        }
+        .baslık{
+           height: 120px;
+        }
+        #yorum{
+            width: 300px;
+            height: 100px;
+        }
+        #sub{
+            background-color: red;
+            color: white;
+            width:90px;
+            height: 40px;
+            border-radius: 20px;
+         margin-left: 150px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="color">
+
+   
+    <div class="baslık">
+        <form action="">
+           <center><h1> <strong> <span id="bir"> NET</span> <span id="iki"> FLIX</span></strong></h1>
+            <p id="uc">  Thank you for signing up at Netflix. Tell us more about your self</p></center>
+        </div>
+<div class="sevket">
+            <label for="name">Name</label>
+            <br> <br>
+            <input type="text" name="ad" id="name" placeholder="Enter your name">
+        
+        <br> <br>
+            <label for="name">Age</label>
+            <br> <br>
+            <input type="text" name="yas" id="name" placeholder="Age">
+            <br> <br>
+            <label for="name">Email</label>
+            <br> <br>
+            <input type="email" name="mail" id="name" placeholder="Enter your email">
+            <br> <br>
+            <label for="content">Content type</label>
+            <br> <br>
+            <div id="listbox1">
+                <select id="listbox1">
+                <option  id="dd" selected>Series</option>
+                <option value="">Courses</option>
+                <option value="">Projects</option>
+                <option value="">Community</option>
+                <option value="">Mentors</option>
+
+            </select>
+            </div>
+            <br>
+<div>
+ 
+<label for="">Movie Type</label>
+<br>
+                        <input type="checkbox" name="improve_1" id="front-end" value="front_end">
+                        <label for="front-end">Comedy</label>
+                        <br>
+                        <input type="checkbox" name="improve_2" id="back-end" value="back-end">
+                        <label for="back-end">Action</label>
+                        <br>
+                        <input type="checkbox" name="improve_3" id="data" value="data" checked>
+                        <label for="data">Romance</label>
+                        <br>
+</div>
+<br>
+<div>
+    <label for="">Gender</label>
+    <br>
+    <label for="cinsiyet1">
+        <input type="radio" name="cinsiyet" id="cinsiyet1" value="ERKEK" >
+       Male</label>
+       <br>
+       <label for="gender2">
+        <input type="radio" name="cinsiyet" id="gender2" value="KADIN" >
+        Female</label>
+        <br>
+        <label for="gender3">
+            <input type="radio" name="cinsiyet" id="gender3" value="OTHER" >
+            Other</label>
+</div>
+<br>
+           
+        <div>
+
+            <p>Feed back</p>
+
+            <textarea name="girilen_yorum" id="yorum"
+                placeholder="Any comment" minlength="25" ></textarea>
+                <br>
+            <input type="submit" value="Submit" id="sub">
+        </div>
+             
+        </div>
+
+
+
+
+
+        </form> 
+    
+    </div>
+</body>
+</html>
